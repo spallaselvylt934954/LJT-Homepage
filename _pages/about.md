@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am a first-year Ph.D. candidate at the HKUST NLP Group, Hong Kong University of Science and Technology (HKUST), supervised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024 with a B.Eng. degree. My research focuses on natural language processing and machine learning.
 
 Research Interests
@@ -74,7 +76,7 @@ Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, *
 Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He<br />
 *NeurIPS 2023*.
 
-A full list of my publications is also available on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) and on the [Publications page](/publications/).
+A full list of my publications is also available on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) and on the [Publications page]({{ base_path }}/publications/).
 
 Contact
 ======
